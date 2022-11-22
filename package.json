@@ -40,14 +40,15 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dayjs": "^1.10.6",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-winston": "4.1.0",
+    "http-status-codes": "^2.1.4",
+    "joi": "^17.7.0",
     "openapi-validator-middleware": "^3.2.2",
     "qs": "^6.10.1",
     "tsoa": "^3.8.0",
-    "winston": "3.3.3",
-    "http-status-codes": "^2.1.4",
-    "dotenv": "^10.0.0"
+    "winston": "3.3.3"
   },
   "jest": {
     "moduleFileExtensions": [
@@ -60,9 +61,6 @@
       "src"
     ],
     "rootDir": "",
-    "setupFilesAfterEnv": [
-      "./test/jest.setup.ts"
-    ],
     "testRegex": ".*?(?=\\.spec).*?\\.ts",
     "testPathIgnorePatterns": [
       "/node_modules/",
